@@ -64,3 +64,9 @@ export interface TreeProps {
   level?: number
   activeItem?: string
 }
+
+// User
+export interface User {
+  id: string
+  username: string
+}

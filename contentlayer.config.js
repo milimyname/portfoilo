@@ -38,7 +38,7 @@ const Article = defineDocumentType(() => ({
     publishedAt: { type: "string", required: true },
     description: { type: "string", required: true },
     seoDescription: { type: "string", required: false },
-    category: { type: "string", required: false },
+    tags: { type: "string", required: false },
     author: {
       type: "nested",
       of: Author,

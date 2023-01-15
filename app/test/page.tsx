@@ -3,6 +3,7 @@
 import * as ToastPrimitive from "@radix-ui/react-toast"
 import { tw } from "@/lib/utils"
 import React from "react"
+import { db } from "@/lib/db"
 
 type Props = {}
 
