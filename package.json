@@ -8,7 +8,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "preview": "next build && next start"
+    "preview": "next build && next start",
+    "g": "git add . && git commit -m 'fast commit' && git push main"
   },
   "dependencies": {
     "@editorjs/editorjs": "^2.26.2",
